@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PreEntega1DF</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-calculadora">
+        <h1>Calculadora</h1>
+        <div class="container-historial">
+          <h2 class="titulo">Historial</h2>
+          <h2 class="historial" id="historial"></h2>
+        </div>
+        <button onclick="calculadora()">Disparar Calculadora</button>
+      </div>
+
+      <div class="container-precio">
+        <h1>Precio final con descuento</h1>
+
+        <div class="container-descuentos">
+          <table>
+            <tr>
+              <th>
+                Tarjeta
+              </th>
+              <th>
+                Descuento
+              </th>
+            </tr>
+            <tr>
+              <td>
+                Visa
+              </td>
+              <td>
+                15%
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Oca
+              </td>
+              <td>
+                10%
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Santander
+              </td>
+              <td>
+                20%
+              </td>
+            </tr>
+            <tr>
+              <td>
+                Itau
+              </td>
+              <td>
+                25%
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="container-historial">
+          <h2 class="titulo">Historial</h2>
+          <h2 class="historial" id="historialDescuento"></h2>
+        </div>
+        <button onclick="calcularPrecio()">Calcular</button>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
